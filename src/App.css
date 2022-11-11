@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(220, 221, 220);
+}
+
+.calculator {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background-color: rgb(255, 255, 255);
+  padding: 30px 60px 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000;
+}
+
+.calculator h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.screen p{
+  background-color: rgb(37, 37, 37);
+  color: #fff;
+  border-radius: 5px;
+  width: 297px;
+  height: 60px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  text-align: right;
+  padding: 15px; 
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.line button {
+  padding: 20px;
+  width: 70px;
+}
+
+button {
+  margin-top: 5px;
+  border: none;
+  box-shadow: 0 0 2px #000;
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+button:hover {
+  background-color: rgb(204, 0, 255);
+  color: #fff;
+}
+
+.father {
+  display: flex;
+  height: 145px;
+  gap: 5px;
+}
+
+.plus {
+  height: 100%;
+}
+
+.plus button {
+  height: 100%;
+  width: 70px;
+}
